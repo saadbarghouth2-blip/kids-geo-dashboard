@@ -23,7 +23,11 @@ export default function TopBar(props: {
           M
         </motion.div>
         <div className="leading-tight text-right" dir="rtl" lang="ar">
-          <div className="font-extrabold">منصة التعلم التفاعلي للأطفال</div>
+          <div className="font-extrabold" dir="ltr">
+            <span aria-hidden="true">🌟</span>{" "}
+            <span dir="rtl">رحلة التعلم التفاعلية</span>{" "}
+            <span aria-hidden="true">🌟</span>
+          </div>
           <div className="text-xs text-white/70">
             {view === "home" ? "اختر درسًا وابدأ الاستكشاف" : `أنت داخل: ${lesson?.title ?? ""}`}
           </div>

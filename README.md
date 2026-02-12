@@ -1,6 +1,8 @@
-# Kids Geo Dashboard (React) — Enhanced UI
+<h1 align="center" dir="ltr">🌟 <span dir="rtl">رحلة التعلم التفاعلية</span> 🌟</h1>
 
-Dashboard تعليمي تفاعلي للأطفال:
+## Kids Geo Dashboard (React)
+
+لوحة تعليمية تفاعلية للأطفال:
 - UI منظم + Cards + Stats + Control Panel
 - خريطة غنية: Layers (حدود مصر/النيل/الدلتا/Glow مناطق/إحداثيات) + Spotlight rings + Heat circles
 - Active Legend مرقّم + Drawer معلومات للمكان
